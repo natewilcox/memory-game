@@ -866,15 +866,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@natewilcox/memory-game-client@workspace:packages/client"
   dependencies:
-    "@eslint/js": "npm:^9.14.0"
     "@natewilcox/memory-game-types": "workspace:^"
-    "@types/eslint__js": "npm:^8.42.3"
     colyseus.js: "npm:^0.15.26"
-    eslint: "npm:^9.14.0"
     jsdom: "npm:^25.0.1"
     phaser: "npm:^3.86.0"
-    typescript: "npm:^5.6.3"
-    typescript-eslint: "npm:^8.13.0"
     vite: "npm:^5.4.10"
     vitest: "npm:^2.1.4"
   languageName: unknown
@@ -907,18 +902,18 @@ __metadata:
 "@natewilcox/memory-game-types@workspace:^, @natewilcox/memory-game-types@workspace:shared/types":
   version: 0.0.0-use.local
   resolution: "@natewilcox/memory-game-types@workspace:shared/types"
-  dependencies:
-    "@eslint/js": "npm:^9.14.0"
-    "@types/eslint__js": "npm:^8.42.3"
-    eslint: "npm:^9.14.0"
-    typescript: "npm:^5.6.3"
-    typescript-eslint: "npm:^8.13.0"
   languageName: unknown
   linkType: soft
 
 "@natewilcox/memory-game@workspace:.":
   version: 0.0.0-use.local
   resolution: "@natewilcox/memory-game@workspace:."
+  dependencies:
+    "@eslint/js": "npm:^9.14.0"
+    "@types/eslint__js": "npm:^8.42.3"
+    eslint: "npm:^9.14.0"
+    typescript: "npm:^5.6.3"
+    typescript-eslint: "npm:^8.13.0"
   languageName: unknown
   linkType: soft
 
