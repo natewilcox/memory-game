@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "start": "yarn workspaces foreach --all -p run start"
+    "start": "yarn workspaces foreach --all -p run start",
+    "build": "yarn workspaces foreach --all -p run build"
   },
   "author": "Nathan Wilcox <natewilcox@gmail.com>",
   "license": "ISC",
