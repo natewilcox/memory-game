@@ -1,0 +1,17 @@
+{
+  "name": "@natewilcox/memory-game",
+  "version": "1.0.0",
+  "description": "An html5 memory game",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Wilcox <natewilcox@gmail.com>",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*",
+    "shared/*"
+  ],
+  "packageManager": "yarn@4.5.3"
+}
